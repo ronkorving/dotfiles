@@ -10,5 +10,5 @@ in which case all these files should be used as-is.
 
 | software                                        | version |
 | ----------------------------------------------- | ------- |
-| [eslint](https://www.npmjs.com/package/eslint)  |   1.2.1 |
+| [eslint](https://www.npmjs.com/package/eslint)  |   1.3.1 |
 | [jscs](https://www.npmjs.com/package/jscs)      |   2.1.0 |
