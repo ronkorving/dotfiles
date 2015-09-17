@@ -24,6 +24,7 @@
 	"disallowSpacesInsideArrayBrackets": true,
 	"disallowSpacesInsideParentheses": true,
 	"disallowQuotedKeysInObjects": true,
+	"requireSemicolons": true,
 	"disallowSpaceAfterObjectKeys": true,
 	"requireCommaBeforeLineBreak": true,
 	"requireOperatorBeforeLineBreak": true,
