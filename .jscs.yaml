@@ -4,9 +4,11 @@ requireSpaceBeforeKeywords: ["if", "else", "for", "while", "do", "switch", "retu
 requireSpaceAfterKeywords: ["if", "else", "for", "while", "do", "switch", "return", "try", "catch", "finally", "typeof"]
 requireSpaceBeforeBlockStatements: true
 disallowSpaceBeforeComma: true
+requireSpaceAfterComma: true
 requireParenthesesAroundIIFE: true
 requireSpacesInConditionalExpression: true
 requireSpacesInAnonymousFunctionExpression:
+  allExcept: [shorthand]
   beforeOpeningRoundBrace: true
   beforeOpeningCurlyBrace: true
 requireSpacesInNamedFunctionExpression:
@@ -15,9 +17,11 @@ disallowNewlineBeforeBlockStatements: true
 requireBlocksOnNewline: true
 disallowPaddingNewlinesInBlocks: true
 disallowEmptyBlocks: true
+disallowIdenticalDestructuringNames: true
+disallowNestedTernaries: true
 requireSpaceBetweenArguments: true
 requireSpacesInForStatement: true
-requireSpacesInsideObjectBrackets: "all"
+requireSpacesInsideObjectBrackets: all
 disallowSpacesInsideArrayBrackets: true
 disallowSpacesInsideParentheses: true
 disallowQuotedKeysInObjects: true
@@ -52,6 +56,7 @@ maximumLineLength:
 requireCapitalizedConstructors: true
 safeContextKeyword: ["that"]
 requireDotNotation: except_snake_case
+requireFunctionDeclarations: true
 disallowYodaConditions: true
 requireSpaceAfterLineComment: true
 requireMatchingFunctionName: true
