@@ -4,7 +4,7 @@ rules:
   # Possible Errors
 
   comma-dangle: [2, never]
-  no-cond-assign: 2
+  no-cond-assign: [2, always]
   no-console: 2
   no-constant-condition: 2
   no-control-regex: 2
@@ -49,6 +49,7 @@ rules:
   no-div-regex: 2
   no-else-return: 2
   no-empty-label: 2
+  no-empty-pattern: 2
   no-eq-null: 2
   no-eval: 2
   no-extend-native: 2
@@ -62,6 +63,7 @@ rules:
   no-labels: 2
   no-lone-blocks: 2
   no-loop-func: 2
+  no-magic-numbers: 0
   no-multi-spaces: 2
   no-multi-str: 2
   no-native-reassign: 2
