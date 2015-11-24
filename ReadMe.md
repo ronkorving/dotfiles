@@ -10,6 +10,6 @@ in which case all these files should be used as-is.
 
 | software                                        | version |
 | ----------------------------------------------- | ------- |
-| [eslint](https://www.npmjs.com/package/eslint)  |   1.9.0 |
-| [jscs](https://www.npmjs.com/package/jscs)      |   2.5.1 |
+| [eslint](https://www.npmjs.com/package/eslint)  |  1.10.1 |
+| [jscs](https://www.npmjs.com/package/jscs)      |   2.6.0 |
 | [EditorConfig](http://editorconfig.org)         |         |
