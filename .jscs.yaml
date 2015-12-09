@@ -58,6 +58,7 @@ safeContextKeyword: ["that"]
 requireDotNotation: except_snake_case
 requireFunctionDeclarations: true
 disallowYodaConditions: true
+requireEarlyReturn: true
 requireSpaceAfterLineComment: true
 requireMatchingFunctionName: true
 requireLineFeedAtFileEnd: true
