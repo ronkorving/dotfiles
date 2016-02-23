@@ -63,6 +63,7 @@ requireEarlyReturn: true
 requireSpaceAfterLineComment: true
 requireMatchingFunctionName: true
 requireLineFeedAtFileEnd: true
+disallowSpacesInsideTemplateStringPlaceholders: true
 jsDoc:
   checkAnnotations: jsdoc3
   checkParamExistence: true
