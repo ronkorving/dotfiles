@@ -30,6 +30,7 @@ disallowSpaceAfterObjectKeys: true
 requireCommaBeforeLineBreak: true
 requireOperatorBeforeLineBreak: true
 requireSpaceBeforeObjectValues: true
+requireSpaceBeforeDestructuredValues: true
 disallowSpaceAfterPrefixUnaryOperators: true
 disallowSpaceBeforePostfixUnaryOperators: true
 disallowSpaceBeforeSemicolon: true
