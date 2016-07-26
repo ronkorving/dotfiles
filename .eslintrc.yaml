@@ -3,7 +3,6 @@ rules:
 
   # Possible Errors
 
-  comma-dangle: [2, never]
   no-cond-assign: [2, always]
   no-console: 2
   no-constant-condition: 2
@@ -24,13 +23,15 @@ rules:
   no-irregular-whitespace: 2
   no-negated-in-lhs: 2
   no-obj-calls: 2
+  no-prototype-builtins: 0
   no-regex-spaces: 2
   no-sparse-arrays: 2
+  no-unexpected-multiline: 2
   no-unreachable: 2
+  no-unsafe-finally: 2
   use-isnan: 2
   valid-jsdoc: 2
   valid-typeof: 2
-  no-unexpected-multiline: 2
 
   # Best Practices
 
@@ -41,8 +42,8 @@ rules:
   consistent-return: 0
   curly: [2, all]
   default-case: 2
-  dot-notation: 2
   dot-location: [2, object]
+  dot-notation: 2
   eqeqeq: 2
   guard-for-in: 2
   no-alert: 2
@@ -77,8 +78,6 @@ rules:
   no-octal-escape: 2
   no-octal: 2
   no-param-reassign: 0
-  no-plusplus: 2
-  no-process-env: 0
   no-proto: 2
   no-redeclare: 2
   no-return-assign: 0
@@ -127,6 +126,7 @@ rules:
   no-mixed-requires: 2
   no-new-require: 2
   no-path-concat: 2
+  no-process-env: 0
   no-process-exit: 2
   no-restricted-modules: 0
   no-sync: 0
@@ -148,18 +148,24 @@ rules:
   no-dupe-class-members: 2
   no-duplicate-imports: 2
   no-new-symbol: 2
+  no-restricted-imports: 0
   no-this-before-super: 2
+  no-useless-computed-key: 2
   no-useless-constructor: 2
+  no-useless-rename: 2
   no-var: 2
   object-shorthand: 2
   prefer-arrow-callback: 0
   prefer-const: 2
-  prefer-rest-params: 0   # enable once supported by Node.js
-  prefer-spread: 0        # enable once supported by Node.js
   prefer-reflect: 0
-  prefer-template: 0
+  prefer-rest-params: 2
+  prefer-spread: 2
+  prefer-template: 2
   require-yield: 2
+  rest-spread-spacing: [2, never]
+  sort-imports: 0
   template-curly-spacing: [2, never]
+  yield-star-spacing: [2, after]
 
 env:
   es6: true
