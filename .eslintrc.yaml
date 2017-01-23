@@ -99,6 +99,7 @@ rules:
   no-void: 2
   no-warning-comments: 1
   no-with: 2
+  prefer-promise-reject-errors: 2
   radix: 2
   require-await: 2
   vars-on-top: 0
@@ -185,6 +186,7 @@ rules:
   no-lonely-if: 2
   no-mixed-operators: 2
   no-mixed-spaces-and-tabs: [2, "smart-tabs"]
+  no-multi-assign: 0
   no-multiple-empty-lines: [2, { max: 2, maxEOF: 1, maxBOF: 0 }]
   no-negated-condition: 2
   no-nested-ternary: 2

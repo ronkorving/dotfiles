@@ -10,7 +10,7 @@ in which case all these files should be used as-is.
 
 | software                                        | version | status                  |
 | ----------------------------------------------- | ------- | ----------------------- |
-| [eslint](https://www.npmjs.com/package/eslint)  |  3.13.1 |                         |
+| [eslint](https://www.npmjs.com/package/eslint)  |  3.14.0 |                         |
 | [jscs](https://www.npmjs.com/package/jscs)      |  2.11.0 | end of life, use ESLint |
 | [EditorConfig](http://editorconfig.org)         |         |                         |
 
