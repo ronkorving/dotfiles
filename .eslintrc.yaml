@@ -4,6 +4,7 @@ rules:
   # Possible Errors
 
   no-await-in-loop: 0
+  no-compare-neg-zero: 2
   no-cond-assign: [2, always]
   no-console: 2
   no-constant-condition: 2
@@ -138,7 +139,7 @@ rules:
   no-restricted-modules: 0
   no-sync: 0
 
-  # Stylistic Issues (we don't check style with ESLint)
+  # Stylistic Issues
 
   array-bracket-spacing: [2, "never"]
   block-spacing: [2, "always"]
@@ -220,6 +221,7 @@ rules:
   space-infix-ops: 2
   space-unary-ops: [2, { words: true, nonwords: false }]
   spaced-comment: [2, "always"]
+  template-tag-spacing: 2
   unicode-bom: [2, "never"]
   wrap-regex: 0
 
