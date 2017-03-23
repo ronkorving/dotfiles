@@ -10,5 +10,5 @@ in which case all these files should be used as-is.
 
 | software                                        | version | status                  |
 | ----------------------------------------------- | ------- | ----------------------- |
-| [ESLint](https://www.npmjs.com/package/eslint)  |  3.17.0 |                         |
+| [ESLint](https://www.npmjs.com/package/eslint)  |  3.18.0 |                         |
 | [EditorConfig](http://editorconfig.org)         |         |                         |
