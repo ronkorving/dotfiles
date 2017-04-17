@@ -84,7 +84,7 @@ rules:
   no-redeclare: 2
   no-restricted-properties: 0
   no-return-assign: 0
-  no-return-await: 2
+  no-return-await: 0
   no-script-url: 2
   no-self-assign: 2
   no-self-compare: 2
