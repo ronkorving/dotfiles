@@ -7,8 +7,8 @@ course you would code exactly like I would, in which case you can use all these 
 
 ## Software and versions
 
-| software                                        | version | status                  |
-| ----------------------------------------------- | ------- | ----------------------- |
-| [ESLint](https://www.npmjs.com/package/eslint)  |  4.11.0 |                         |
-| [EditorConfig](http://editorconfig.org)         |         |                         |
-| [.npmrc](https://docs.npmjs.com/files/npmrc)    |         |                         |
+| software                                        | version |
+| ----------------------------------------------- | ------- |
+| [ESLint](https://www.npmjs.com/package/eslint)  |  4.12.0 |
+| [EditorConfig](http://editorconfig.org)         |         |
+| [.npmrc](https://docs.npmjs.com/files/npmrc)    |         |

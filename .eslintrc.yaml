@@ -167,6 +167,7 @@ rules:
   id-blacklist: 0
   id-length: 0
   id-match: 0
+  implicit-arrow-linebreak: [2, "beside"]
   indent: [2, "tab"]
   jsx-quotes: [2, "prefer-double"]
   key-spacing: [2, { beforeColon: false, afterColon: true, mode: strict }]
