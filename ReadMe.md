@@ -9,6 +9,6 @@ course you would code exactly like I would, in which case you can use all these 
 
 | software                                        | version |
 | ----------------------------------------------- | ------- |
-| [ESLint](https://www.npmjs.com/package/eslint)  |  4.12.0 |
+| [ESLint](https://www.npmjs.com/package/eslint)  |  4.13.1 |
 | [EditorConfig](http://editorconfig.org)         |         |
 | [.npmrc](https://docs.npmjs.com/files/npmrc)    |         |
