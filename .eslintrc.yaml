@@ -52,6 +52,7 @@ rules:
   dot-notation: 2
   eqeqeq: 2
   guard-for-in: 2
+  max-classes-per-file: 0
   no-alert: 2
   no-caller: 2
   no-case-declarations: 2
@@ -185,6 +186,7 @@ rules:
   max-depth: [1, 6]
   max-len: [2, { code: 120, tabWidth: 4, ignoreUrls: true }]
   max-lines: [1, { max: 1000, skipBlankLines: true, skipComments: true }]
+  max-lines-per-function: [1, 50]
   max-nested-callbacks: [1, 6]
   max-params: 0
   max-statements: 0
@@ -224,6 +226,7 @@ rules:
   operator-linebreak: [2, "after"]
   padded-blocks: [2, "never"]
   padding-line-between-statements: 0
+  prefer-object-spread: 2
   quote-props: [2, "as-needed"]
   quotes: [2, "single", { avoidEscape: true, allowTemplateLiterals: true }]
   require-jsdoc: 0
